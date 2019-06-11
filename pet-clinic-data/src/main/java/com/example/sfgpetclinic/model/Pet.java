@@ -6,15 +6,15 @@ import java.time.LocalDate;
 
 public class Pet {
 
-    private  petType petType;
+    private PetType petType;
     private Owner owner;
     private LocalDate birthDate;
 
-    public com.example.sfgpetclinic.model.petType getPetType() {
+    public PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(com.example.sfgpetclinic.model.petType petType) {
+    public void setPetType(PetType petType) {
         this.petType = petType;
     }
 
