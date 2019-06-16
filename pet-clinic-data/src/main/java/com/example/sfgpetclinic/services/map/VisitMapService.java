@@ -1,7 +1,7 @@
 package com.example.sfgpetclinic.services.map;
 
 import com.example.sfgpetclinic.model.Visit;
-import com.example.sfgpetclinic.services.springdatajpa.VisitService;
+import com.example.sfgpetclinic.services.VisitService;
 
 import java.util.Set;
 
